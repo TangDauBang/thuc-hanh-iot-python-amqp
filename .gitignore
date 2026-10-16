@@ -1,0 +1,4 @@
+*.docx
+Thực hành python amqp.docx
+__pycache__/
+*.pyc
