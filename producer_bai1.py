@@ -37,9 +37,8 @@ def main():
 
     # Nội dung thông điệp theo yêu cầu bài thực hành:
     # Gồm: Họ tên sinh viên, Mã sinh viên, Nội dung chào mừng
-    student_name = "Nguyen Van A"
-    student_id = "B21DCCN001"
-    message_content = f"Xin chao tu ung dung Python AMQP - {student_id} - {student_name}"
+    student_info = "B23DCCN825 - Nguyen Viet Tinh & B23DCCN313 - Tran Van Hieu"
+    message_content = f"Xin chao tu ung dung Python AMQP - {student_info}"
 
     print(f"\n1. Gửi message mặc định: '{message_content}'")
     print("2. Tự nhập message gửi một lần")

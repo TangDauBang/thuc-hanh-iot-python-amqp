@@ -1,6 +1,16 @@
 # BÁO CÁO THỰC HÀNH: LẬP TRÌNH PYTHON VỚI GIAO THỨC AMQP (RABBITMQ)
 
+
 Dự án mô phỏng các bài toán truyền nhận thông điệp trong hệ thống IoT sử dụng giao thức **AMQP (Advanced Message Queuing Protocol)** và thư viện **Pika** trên nền tảng **RabbitMQ**.
+
+---
+
+## 👥 Thông Tin Sinh Viên Thực Hiện
+
+| STT | Họ và Tên | Mã Sinh Viên | Lớp |
+| :---: | :--- | :---: | :---: |
+| 1 | **Nguyễn Viết Tỉnh** | `B23DCCN825` | D23CQCN |
+| 2 | **Trần Văn Hiếu** | `B23DCCN313` | D23CQCN |
 
 ---
 
@@ -74,14 +84,14 @@ Làm quen với mô hình cơ bản: `Producer -> Queue -> Consumer`.
   === BÀI 1: PRODUCER (Gửi message qua queue) ===
   Đang kết nối tới RabbitMQ Broker...
   [x] Đã gửi thành công vào queue 'iot_lab_queue':
-      -> Xin chao tu ung dung Python AMQP - B21DCCN001 - Nguyen Van A
+      -> Xin chao tu ung dung Python AMQP - B23DCCN825 - Nguyen Viet Tinh - B23DCCN313 - Tran Van Hieu
   [OK] Đã hoàn thành và đóng kết nối.
   ```
 * **Consumer:**
   ```text
   === BÀI 1: CONSUMER (Lắng nghe message từ queue) ===
   [*] Đang lắng nghe trên queue 'iot_lab_queue'...
-  Da nhan message: Xin chao tu ung dung Python AMQP - B21DCCN001 - Nguyen Van A
+  Da nhan message: Xin chao tu ung dung Python AMQP - B23DCCN825 - Nguyen Viet Tinh - B23DCCN313 - Tran Van Hieu
   Thoi gian nhan: 00:50:20
   --------------------------------------------------
   ```
